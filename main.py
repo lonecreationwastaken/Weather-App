@@ -5,9 +5,9 @@ from weather_data import current_temperature, weather_description, city_name
 
 class Weather:
 
-	sun = "sun.png"
-	fog = "fog.png"
-	rain = "rain.png"
+	sun = "images/sun.png"
+	fog = "images/fog.png"
+	rain = "images/rain.png"
 
 	def __init__(self, title):
 		self.title = title
